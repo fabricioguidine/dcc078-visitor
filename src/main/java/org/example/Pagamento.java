@@ -1,4 +1,5 @@
 package org.example;
 
-public class Pagamento {
+public interface Pagamento {
+    String aceitar(Visitor visitor);
 }

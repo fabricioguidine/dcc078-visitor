@@ -1,4 +1,8 @@
 package org.example;
 
-public class Visitor {
+public interface Visitor {
+
+    String exibirPagamentoPix(PagamentoPix pagamentoPix);
+    String exibirPagamentoCartaoCredito(PagamentoCartaoCredito pagamentoCartaoCredito);
+    String exibirPagamentoBoleto(PagamentoBoleto pagamentoBoleto);
 }
